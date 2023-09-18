@@ -1,0 +1,131 @@
+.miscitas-container {
+    background-color: #e6e0e5;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.header-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.header-section h2, h3 {
+    display: inline;
+    color: #8D2B63;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.header-section h2 {
+    margin-right: 40px;
+}
+
+.header-section hr {
+    border-top: 2px solid #8D2B63;
+    width: 80%;
+    margin: 5px auto;
+}
+
+.history-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.appointment-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 0 45px;
+    margin-right: 35px;
+}
+
+.column {
+    flex: 1;
+    text-align: center;
+}
+
+button {
+    background-color: red;
+    border: 2px solid black;
+    color: #FFFFFF;
+    padding: 0px 10px;
+    padding-bottom: 3px;
+    cursor: pointer;
+    border-radius: 18px;
+    height: 30px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #8D2B63;
+    color: beige;
+}
+
+.show-more {
+    text-align: left;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.history-row {
+    display: flex;
+    margin: 20px 20px 0 100px;
+    padding: 0 50px;
+    align-items: center;
+}
+
+.history-row > div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.history-line {
+    margin-left: 16px;
+}
+
+.history-line:first-child {
+    margin-left: 0;
+}
+
+.history-row div:nth-child(5) { /* selecciona el div que contiene el ícono de tijeras */
+    margin-left: 5px; /* margen a la izquierda para separarlo de la fecha */
+    margin-right: 5px;
+
+}
+
+.history-row span {
+    margin-left: 18px;
+}
+body, html {
+    background-color: #e6e0e5;
+    margin: 0; /* Asegura que no hay márgenes adicionales */
+    padding: 0; 
+}
+
+.lastLine {
+    margin-left: 164px;
+    margin-top: 22px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #8D2B63;
+}
+
+.logout-button-container {
+    text-align: right;
+    margin-right: 20px; /* Puedes ajustar este valor para el espaciado adecuado */
+  }
+  
+  .logout-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #333; /* Cambia el color del texto según tu diseño */
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 30px;
+  }
+  
+  

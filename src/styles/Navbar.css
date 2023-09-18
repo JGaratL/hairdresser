@@ -1,0 +1,81 @@
+
+/* Estilos para el componente Navbar */
+.navbar {
+    margin-top: 2rem;
+    align-items: center; /* Centrar verticalmente el contenido */
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: #8D2B63; /* Cambia el color según tu diseño */
+  }
+  
+  
+.nav-link {
+  margin-bottom: 55px;
+}
+
+  .nav-item {
+    text-decoration: none;  /* Esto quitará el subrayado */
+    background-color: transparent; /* Fondo transparente para los botones */
+    color: rgb(192, 190, 190); /* Texto en blanco para los botones */
+    border: none; /* Sin borde para los botones */
+    cursor: pointer; /* Cambiar cursor a puntero al pasar el mouse en los botones */
+    margin-right: 50px;
+    margin-bottom: 35px;
+    transition: color 0.3s; 
+}
+
+.nav-item:hover {
+  color: #ffffff; /* Cambiar el color del texto a blanco puro al pasar el ratón por encima */
+}
+
+/* Puedes agregar estilos para otros estados como :active o :visited si es necesario */
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.actions {
+  
+  position: relative;
+  top: -17px;
+  margin-right: 30px;
+  margin-bottom: 18px;
+}
+
+.logo .circle-logo {
+    position: relative;
+    top: -17px;
+    height: 100%;
+    margin-left: 30px;
+
+}
+
+.icon {
+  color: rgb(190, 190, 190);
+  font-size: 20px;
+  margin-left: 12px;
+  margin-right: 12px;
+  transition: color 0.3s; /* Agregar una transición suave al color del texto */
+
+  cursor: pointer; /* Cambiar cursor a puntero al pasar el mouse en los botones */
+}
+
+.icon:hover {
+  color: #ffffff; /* Cambiar el color del texto a blanco puro al pasar el ratón por encima */
+
+}
+.rounded-pill {
+  font-size: 10px;
+  transition: border 0.3s; /* Agrega una transición suave al borde */
+ 
+  /* Estilos cuando el ratón pasa por encima */
+  &:hover {
+      border: 1px solid #f8f5f5; /* Borde negro al pasar el ratón por encima  */
+  }
+}
+
+.nav-item.active {
+  color: #FFFFFF; /* blanco puro */
+}

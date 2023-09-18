@@ -1,0 +1,25 @@
+/* Estilo para el componente Citanoreg */
+.citanoreg-container {
+    background-color: #e5d8ff; /* Ajusta este valor según el tono que desees */
+    width: 100%; /* Asegurándose de que cubra toda la vista */
+    min-height: 100vh; /* Para que cubra todo el alto de la pantalla */
+    
+ 
+}
+.date-picker-input {
+    border: none !important;
+    outline: none;
+    flex: 1;
+    display: flex;
+
+}
+
+.citanoreg-container2 {
+    display: flex;
+    justify-content: center;
+}
+
+.titleDate {
+    padding: 30px;
+}
+
